@@ -31,5 +31,6 @@ repositories {
 }
 
 dependencies {
-        implementation "com.facebook.react:react-native:+"
+    implementation "com.facebook.react:react-native:+"
+    implementation files('libs/zip4j_1.3.2.jar')
 }
